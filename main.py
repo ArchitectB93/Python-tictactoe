@@ -16,7 +16,7 @@ TTT = [[None]*3, [None]*3, [None]*3]
 # initializing pygame window
 pg.init()
 fps = 30
-CLOCK = pg.timeClock()
+CLOCK = pg.time.Clock()
 screen = pg.display.set_mode((width, height+100), 0, 32)
 pg.display.set_caption("tic Tac Toe")
 
